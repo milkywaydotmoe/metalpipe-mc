@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "combat",
     "pattern": [
         "i",
         "i"
@@ -9,5 +10,6 @@
             "item": "minecraft:iron_ingot"
         }
     },
-    "result": {}
+    "result": "metal-pipe:metalpipe",
+    "count": 1
 }

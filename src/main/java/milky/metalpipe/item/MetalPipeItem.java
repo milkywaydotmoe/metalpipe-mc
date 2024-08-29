@@ -2,11 +2,17 @@ package milky.metalpipe.item;
 
 import milky.metalpipe.sound.ModSounds;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.*;
 import net.minecraft.sound.SoundCategory;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.random.Random;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class MetalPipeItem extends SwordItem {
     public MetalPipeItem (Item.Settings settings)
@@ -24,4 +30,9 @@ public class MetalPipeItem extends SwordItem {
         return true;
     }
 
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.metal-pipe.metalpipe"));
+        super.appendTooltip(stack, world, tooltip, context);
+    }
 }

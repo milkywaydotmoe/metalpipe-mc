@@ -1,6 +1,6 @@
 {
     "type": "minecraft:smelting",
-    "ingredient": {},
+    "ingredient": "metal-pipe:metalpipe",
     "result": {
         "id": "minecraft:iron_nugget"
     },
