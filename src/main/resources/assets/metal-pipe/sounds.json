@@ -1,0 +1,8 @@
+{
+  "metal_pipe": {
+    "subtitle": "sounds.metal-pipe.metal_pipe",
+    "sounds": [
+      "metal-pipe:metalpipe"
+    ]
+  }
+}
