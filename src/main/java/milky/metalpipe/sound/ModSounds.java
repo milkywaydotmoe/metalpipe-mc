@@ -8,6 +8,9 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
     public static final SoundEvent SOUND_PIPE = registerSoundEvent("metal_pipe");
+    public static final SoundEvent SOUND_GPIPE = registerSoundEvent("gold_pipe");
+    public static final SoundEvent SOUND_CPIPE = registerSoundEvent("copper_pipe");
+    public static final SoundEvent SOUND_NPIPE = registerSoundEvent("nether_pipe");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(MetalPipe.MOD_ID, name);

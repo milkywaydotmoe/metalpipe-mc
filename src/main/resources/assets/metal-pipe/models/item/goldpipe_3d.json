@@ -1,10 +1,10 @@
 {
 	"credit": "Made by StitchSprites and MiLKY-P",
-	"parent": "metalpipe",
+	"parent": "goldpipe",
 	"ambientocclusion": true,
 	"textures": {
-		"1": "metal-pipe:item/metal_pipe3d",
-		"particle": "metal-pipe:item/metal_pipe"
+		"1": "metal-pipe:item/gold_pipe3d",
+		"particle": "metal-pipe:item/gold_pipe"
 	},
 	"elements": [
 		{

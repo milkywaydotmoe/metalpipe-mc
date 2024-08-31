@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient": "metal-pipe:metalpipe",
-  "result": {
-    "id": "minecraft:iron_nugget"
-  },
-  "experience": 2,
-  "cookingtime": 150
-}

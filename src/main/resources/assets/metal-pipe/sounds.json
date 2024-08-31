@@ -4,5 +4,23 @@
     "sounds": [
       "metal-pipe:metalpipe"
     ]
+  },
+  "gold_pipe": {
+    "subtitle": "sounds.metal-pipe.metal_pipe",
+    "sounds": [
+      "metal-pipe:goldpipe"
+    ]
+  },
+  "copper_pipe": {
+    "subtitle": "sounds.metal-pipe.metal_pipe",
+    "sounds": [
+      "metal-pipe:copperpipe"
+    ]
+  },
+  "nether_pipe": {
+    "subtitle": "sounds.metal-pipe.metal_pipe",
+    "sounds": [
+      "metal-pipe:netherpipe"
+    ]
   }
 }

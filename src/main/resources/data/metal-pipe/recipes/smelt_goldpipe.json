@@ -5,8 +5,8 @@
   "experience": 0.7,
   "group": "iron_ingot",
   "ingredient": {
-    "item": "metal-pipe:metalpipe"
+    "item": "metal-pipe:goldpipe"
   },
   "count": 2,
-  "result": "minecraft:iron_nugget"
+  "result": "minecraft:gold_nugget"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "metal-pipe:item/copper_pipe"
+  }
+}

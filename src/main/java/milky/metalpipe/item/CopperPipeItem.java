@@ -1,11 +1,12 @@
 package milky.metalpipe.item;
 
 import milky.metalpipe.sound.ModSounds;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.*;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolMaterials;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.random.Random;
@@ -14,10 +15,10 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class MetalPipeItem extends SwordItem {
-    public MetalPipeItem (Item.Settings settings)
+public class CopperPipeItem extends SwordItem {
+    public CopperPipeItem(Settings settings)
     {
-        super(ToolMaterials.IRON, 2, 2.6f, settings);
+        super(ToolMaterials.DIAMOND, 3, 3f, settings);
 
     }
     @Override
@@ -25,8 +26,8 @@ public class MetalPipeItem extends SwordItem {
         stack.damage(1, attacker, (e) -> {
             e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
         });
-        target.getWorld().playSound(null, attacker.getBlockPos(), ModSounds.SOUND_PIPE,
-                SoundCategory.PLAYERS, 1f, Random.create().nextFloat()*0.2f+0.9f);
+        target.getWorld().playSound(null, attacker.getBlockPos(), ModSounds.SOUND_CPIPE,
+                SoundCategory.PLAYERS, 2.5f, Random.create().nextFloat()*0.2f+0.9f);
         return true;
     }
 
