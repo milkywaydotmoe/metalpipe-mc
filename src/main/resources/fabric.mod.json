@@ -2,16 +2,19 @@
 	"schemaVersion": 1,
 	"id": "metal-pipe",
 	"version": "${version}",
-	"name": "Metal Pipe",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Metal Pipe!",
+	"description": "A mod that adds a Metal Pipe weapon to Minecraft!",
 	"authors": [
-		"Me!"
+		"milkywaydotmoe"
 	],
 	"contact": {
-		"homepage": "https://milkyway.moe/mods/metalpipe",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://milkyway.moe/",
+		"email": "triples3n@gmail.com",
+		"sources": "https://github.com/milkywaydotmoe/metalpipe-mc",
+		"twitter": "https://x.com/milkywaydotmoe",
+		"license": "https://milkyway.moe/license/V2/mktpl_ncmpd"
 	},
-	"license": "CC0-1.0",
+	"license": "MKTPL-NCMPD",
 	"icon": "assets/metal-pipe/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,8 +26,8 @@
 		"metal-pipe.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.3",
-		"minecraft": "~1.20.1",
+		"fabricloader": ">0.14.21",
+		"minecraft": "1.20.x",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

@@ -20,6 +20,15 @@ public abstract class ItemRendererMixin {
         if (stack.isOf(ModItems.PIPE) && renderMode != ModelTransformationMode.GUI) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(MetalPipe.MOD_ID, "metalpipe_3d", "inventory"));
         }
+        if (stack.isOf(ModItems.GPIPE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(MetalPipe.MOD_ID, "goldpipe_3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.CPIPE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(MetalPipe.MOD_ID, "copperpipe_3d", "inventory"));
+        }
+        if (stack.isOf(ModItems.NPIPE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(MetalPipe.MOD_ID, "netherpipe_3d", "inventory"));
+        }
         return value;
     }
 }

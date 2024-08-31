@@ -18,7 +18,7 @@ import java.util.List;
 public class GoldPipeItem extends SwordItem {
     public GoldPipeItem(Settings settings)
     {
-        super(ToolMaterials.GOLD, 2, 4f, settings);
+        super(ToolMaterials.GOLD, 2, -1.2f, settings);
 
     }
     @Override
@@ -33,7 +33,7 @@ public class GoldPipeItem extends SwordItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.metal-pipe.metalpipe"));
+        tooltip.add(Text.translatable("tooltip.metal-pipe.goldpipe"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

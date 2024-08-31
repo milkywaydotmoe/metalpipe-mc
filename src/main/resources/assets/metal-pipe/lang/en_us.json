@@ -1,5 +1,16 @@
 {
+  "item.metal-pipe.copperpipe": "Copper Pipe",
+  "item.metal-pipe.goldpipe": "Golden Pipe",
   "item.metal-pipe.metalpipe": "Metal Pipe",
+  "item.metal-pipe.netherpipe": "Netherite Pipe",
+
+  "sounds.metal-pipe.copper_pipe": "Copper Pipe clinks quietly",
+  "sounds.metal-pipe.gold_pipe": "Gold Pipe rings out annoyingly",
   "sounds.metal-pipe.metal_pipe": "Metal Pipe rings out annoyingly",
-  "tooltip.metal-pipe.metalpipe": "A metal pipe. Use it to attack your friends or enemies, with a satisfying '§l§oBWOOOOOOONG!!!!' §rsound!"
+  "sounds.metal-pipe.nether_pipe": "Netherite Pipe uses Blast Processing",
+
+  "tooltip.metal-pipe.copperpipe": "A copper pipe. Use it to attack your friends or enemies, with a quiet clink sound!",
+  "tooltip.metal-pipe.metalpipe": "A metal pipe. Use it to attack your friends or enemies, with a satisfying '§l§oBWOOOOOOONG!!!!' §rsound!",
+  "tooltip.metal-pipe.goldpipe": "A gold pipe. Not much use besides being a golden pipe.",
+  "tooltip.metal-pipe.netherpipe": "A netherite pipe. Use it to demolish your friends or enemies, with a satisfying '§l§oBWOOOOOOOMP!!!!' §rsound!"
 }

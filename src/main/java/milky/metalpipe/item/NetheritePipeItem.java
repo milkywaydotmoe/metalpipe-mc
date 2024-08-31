@@ -18,7 +18,7 @@ import java.util.List;
 public class NetheritePipeItem extends SwordItem {
     public NetheritePipeItem(Settings settings)
     {
-        super(ToolMaterials.NETHERITE, 5, 3.5f, settings);
+        super(ToolMaterials.NETHERITE, 2, -1.2f, settings);
 
     }
     @Override
@@ -27,13 +27,13 @@ public class NetheritePipeItem extends SwordItem {
             e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
         });
         target.getWorld().playSound(null, attacker.getBlockPos(), ModSounds.SOUND_NPIPE,
-                SoundCategory.PLAYERS, 3f, Random.create().nextFloat()*0.2f+0.9f);
+                SoundCategory.PLAYERS, 2f, Random.create().nextFloat()*0.2f+0.9f);
         return true;
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.metal-pipe.metalpipe"));
+        tooltip.add(Text.translatable("tooltip.metal-pipe.netherpipe"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

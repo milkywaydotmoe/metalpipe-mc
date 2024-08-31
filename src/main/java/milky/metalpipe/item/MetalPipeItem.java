@@ -17,7 +17,7 @@ import java.util.List;
 public class MetalPipeItem extends SwordItem {
     public MetalPipeItem (Item.Settings settings)
     {
-        super(ToolMaterials.IRON, 2, 2.6f, settings);
+        super(ToolMaterials.IRON, 2, -1.2f, settings);
 
     }
     @Override
